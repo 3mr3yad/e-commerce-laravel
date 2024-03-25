@@ -13,6 +13,7 @@ return new class extends Migration
     {
         Schema::table('users', function (Blueprint $table) {
             $table->enum('role', [0, 1])->default(0);
+            $table->string("access_token", 255)->nullable();
         });
     }
 

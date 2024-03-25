@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{__('message.lang')}}" dir="{{__('message.dir')}}">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="{{asset("admin/assets")}}/vendors/flag-icon-css/css/flag-icon.min.css">
     <link rel="stylesheet" href="{{asset("admin/assets")}}/vendors/owl-carousel-2/owl.carousel.min.css">
     <link rel="stylesheet" href="{{asset("admin/assets")}}/vendors/owl-carousel-2/owl.theme.default.min.css">
+
     <!-- End plugin css for this page -->
     <!-- inject:css -->
     <!-- endinject -->
